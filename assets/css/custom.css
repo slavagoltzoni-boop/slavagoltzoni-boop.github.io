@@ -1,0 +1,10 @@
+﻿/* Показывать текст текущего языка в переключателе */
+.language-switcher .current-language {
+  display: inline !important;
+  visibility: visible !important;
+}
+
+.language-switcher .current-language span {
+  display: inline !important;
+  opacity: 1 !important;
+}
