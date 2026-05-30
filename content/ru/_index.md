@@ -6,6 +6,7 @@ type: landing
 
 sections:
   - block: resume-biography-3
+    id: about
     content:
       username: me
       button:
@@ -29,11 +30,17 @@ sections:
       order: desc
     design:
       view: card
+  - block: resume-experience
+    id: experience
+    content:
+      username: me
   - block: resume-awards
+    id: awards
     content:
       title: Достижения
       username: me
   - block: resume-languages
+    id: languages
     content:
       title: Языки
       username: me
