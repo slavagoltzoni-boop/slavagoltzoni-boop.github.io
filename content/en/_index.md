@@ -12,10 +12,6 @@ sections:
       button:
         text: Download CV
         url: uploads/resume.pdf
-      headings:
-        about: "About"
-        education: "Education"
-        interests: "Interests"
     design:
       background:
         gradient_mesh:
