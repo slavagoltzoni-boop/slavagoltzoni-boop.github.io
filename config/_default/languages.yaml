@@ -1,22 +1,17 @@
-# Languages
-#   Create a section for each of your site's languages.
-#   Documentation: https://docs.hugoblox.com/reference/language/
+# Русский язык (основной)
+ru:
+  locale: ru-RU
+  languageName: Русский
+  weight: 1
+  title: Гольцов Вячеслав
+  params:
+    description: Персональный академический сайт
 
-# Default language
+# Английский язык
 en:
-  locale: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
-
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  locale: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+  locale: en-US
+  languageName: English
+  weight: 2
+  title: Viacheslav Goltsov
+  params:
+    description: Personal academic website
