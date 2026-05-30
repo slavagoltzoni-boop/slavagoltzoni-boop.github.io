@@ -6,11 +6,16 @@ type: landing
 
 sections:
   - block: resume-biography-3
+    id: about
     content:
       username: me
       button:
         text: Download CV
         url: uploads/resume.pdf
+      headings:
+        about: "About"
+        education: "Education"
+        interests: "Interests"
     design:
       background:
         gradient_mesh:
@@ -29,11 +34,25 @@ sections:
       order: desc
     design:
       view: card
+  - block: resume-experience
+    id: experience
+    content:
+      username: me
+      title: Experience
+    design:
+      date_format: 'January 2006'
+      is_education_first: false
+  - block: resume-skills
+    content:
+      title: Skills
+      username: me
   - block: resume-awards
+    id: awards
     content:
       title: Awards
       username: me
   - block: resume-languages
+    id: languages
     content:
       title: Languages
       username: me

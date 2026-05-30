@@ -12,6 +12,10 @@ sections:
       button:
         text: Скачать резюме
         url: uploads/resume.pdf
+      headings:
+        about: "О себе"
+        education: "Образование"
+        interests: "Интересы"
     design:
       background:
         gradient_mesh:
