@@ -52,3 +52,16 @@ awards:
     awarder: Stepik
     date: "2026-03-01"
     summary: Освоил базовые команды Linux, работу с файловой системой и bash.
+accomplishments:
+  - title: "Основы Git"
+    organization: "GitHub Learning Lab"
+    date: "2026-05-15"
+    url: "https://skills.github.com/"
+  - title: "Введение в Linux"
+    organization: "Stepik"
+    date: "2026-03-01"
+    url: "https://stepik.org/"
+  - title: "Основы программирования на Python"
+    organization: "Coursera"
+    date: "2026-01-20"
+    url: "https://coursera.org/"
