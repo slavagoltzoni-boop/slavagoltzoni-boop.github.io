@@ -1,6 +1,7 @@
 ﻿schema: hugoblox/author/v1
 slug: me
 is_owner: true
+locale: ru
 name:
   display: Гольцов Вячеслав Сергеевич
   given: Вячеслав
@@ -10,6 +11,15 @@ status:
 role: Студент
 bio: |
   Учусь на первом курсе направления Бизнес информатика в РУДН.
+
+headings:
+  about: "О себе"
+  education: "Образование"
+  interests: "Интересы"
+  skills: "Навыки"
+  experience: "Опыт"
+  awards: "Достижения"
+  languages: "Языки"
 
 interests:
   - Программирование
@@ -21,6 +31,15 @@ education:
     institution: РУДН
     start: 2025-09-01
     end: 2029-06-30
+
+experience:
+  - role: Учебный проект
+    org: РУДН
+    start: 2026-02-01
+    end: 2026-05-30
+    summary: |
+      Участвовал в командном проекте по разработке прототипа информационной системы для малого бизнеса.
+      Работал с Git, оформлял документацию, осваивал основы проектной деятельности.
 
 skills:
   - name: Технические навыки
@@ -39,14 +58,7 @@ languages:
   - name: Английский
     level: 3
     label: Средний
-experience:
-  - role: Учебный проект
-    org: РУДН
-    start: 2026-02-01
-    end: 2026-05-30
-    summary: |
-      Участвовал в командном проекте по разработке прототипа информационной системы для малого бизнеса.
-      Работал с Git, оформлял документацию, осваивал основы проектной деятельности.
+
 awards:
   - title: Сертификат "Введение в Linux"
     awarder: Stepik
@@ -60,6 +72,7 @@ awards:
     awarder: Coursera
     date: "2026-01-20"
     summary: Освоил базовый синтаксис Python, циклы, функции и структуры данных.
+
 links:
   - icon: brands/github
     url: https://github.com/slavagoltzoni-boop
@@ -73,12 +86,3 @@ links:
   - icon: academicons/orcid
     url: https://orcid.org/
     label: ORCID
-  - icon: hero/academic-cap
-    url: https://www.mendeley.com/
-    label: Mendeley
-  - icon: hero/beaker
-    url: https://www.researchgate.net/
-    label: ResearchGate
-  - icon: hero/document-text
-    url: https://arxiv.org/
-    label: arXiv
