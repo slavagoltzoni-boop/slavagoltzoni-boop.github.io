@@ -21,37 +21,9 @@ sections:
         size: medium
         shape: circle
   - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      filters:
-        folders:
-          - publications
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
-  - block: collection
     id: news
     content:
-      title: Recent News
+      title: News
       page_type: blog
       count: 10
       order: desc
