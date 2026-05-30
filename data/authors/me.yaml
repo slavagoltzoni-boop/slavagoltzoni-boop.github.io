@@ -52,16 +52,33 @@ awards:
     awarder: Stepik
     date: "2026-03-01"
     summary: Освоил базовые команды Linux, работу с файловой системой и bash.
-accomplishments:
   - title: "Основы Git"
-    organization: "GitHub Learning Lab"
+    awarder: GitHub Learning Lab
     date: "2026-05-15"
-    url: "https://skills.github.com/"
-  - title: "Введение в Linux"
-    organization: "Stepik"
-    date: "2026-03-01"
-    url: "https://stepik.org/"
+    summary: Изучил основы контроля версий, ветвление, merge и rebase.
   - title: "Основы программирования на Python"
-    organization: "Coursera"
+    awarder: Coursera
     date: "2026-01-20"
-    url: "https://coursera.org/"
+    summary: Освоил базовый синтаксис Python, циклы, функции и структуры данных.
+links:
+  - icon: brands/github
+    url: https://github.com/slavagoltzoni-boop
+    label: GitHub
+  - icon: hero/book-open
+    url: https://elibrary.ru/
+    label: eLibrary
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/
+    label: Google Scholar
+  - icon: academicons/orcid
+    url: https://orcid.org/
+    label: ORCID
+  - icon: hero/academic-cap
+    url: https://www.mendeley.com/
+    label: Mendeley
+  - icon: hero/beaker
+    url: https://www.researchgate.net/
+    label: ResearchGate
+  - icon: hero/document-text
+    url: https://arxiv.org/
+    label: arXiv
