@@ -1,2 +1,0 @@
-﻿{{ \ := .heading | default "" }}
-{{ if eq \ "Professional Summary" }}О себе{{ else if eq \ "Education" }}Образование{{ else if eq \ "Interests" }}Интересы{{ else if eq \ "Experience" }}Опыт{{ else if eq \ "Skills & Hobbies" }}Навыки{{ else if eq \ "Awards" }}Достижения{{ else if eq \ "Languages" }}Языки{{ else }}{{ \ }}{{ end }}

@@ -1,7 +1,6 @@
 ﻿ru:
   locale: ru-RU
-  languageCode: ru-RU
-  languageName: Русский
+  label: Русский
   contentDir: content/ru
   weight: 1
   title: Гольцов Вячеслав
@@ -10,8 +9,7 @@
 
 en:
   locale: en-US
-  languageCode: en-US
-  languageName: English
+  label: English
   contentDir: content/en
   weight: 2
   title: Viacheslav Goltsov
