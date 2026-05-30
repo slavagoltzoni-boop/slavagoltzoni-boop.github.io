@@ -1,16 +1,16 @@
-# Русский язык (основной)
-ru:
+﻿ru:
   locale: ru-RU
   languageName: Русский
+  contentDir: content/ru
   weight: 1
   title: Гольцов Вячеслав
   params:
     description: Персональный академический сайт
 
-# Английский язык
 en:
   locale: en-US
   languageName: English
+  contentDir: content/en
   weight: 2
   title: Viacheslav Goltsov
   params:

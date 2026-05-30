@@ -1,4 +1,4 @@
-schema: hugoblox/author/v1
+﻿schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
@@ -8,7 +8,6 @@ name:
 role: Student
 bio: |
   First-year student of Business Informatics at RUDN University.
-  Interested in programming, data analysis and Linux.
 interests:
   - Programming
   - Data Analysis
@@ -34,7 +33,3 @@ languages:
   - name: English
     level: 3
     label: Intermediate
-links:
-  - icon: brands/github
-    url: https://github.com/slavagoltzoni-boop
-    label: GitHub
