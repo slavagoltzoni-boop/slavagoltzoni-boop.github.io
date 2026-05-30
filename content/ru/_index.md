@@ -34,6 +34,14 @@ sections:
     id: experience
     content:
       username: me
+      title: Опыт
+    design:
+      date_format: 'January 2006'
+      is_education_first: false
+  - block: resume-skills
+    content:
+      title: Навыки
+      username: me
   - block: resume-awards
     id: awards
     content:
