@@ -1,22 +1,38 @@
 ﻿schema: hugoblox/author/v1
 slug: me
 is_owner: true
+locale: en
 name:
   display: Viacheslav Goltsov
   given: Viacheslav
   family: Goltsov
+status:
+  icon: "☕️"
 role: Student
 bio: |
   First-year student of Business Informatics at RUDN University.
+  Interested in programming, data analysis and Linux.
+
 interests:
   - Programming
   - Data Analysis
   - Linux
+
 education:
   - degree: Bachelor
     institution: RUDN University
     start: 2025-09-01
     end: 2029-06-30
+
+experience:
+  - role: Student Project
+    org: RUDN University
+    start: 2026-02-01
+    end: 2026-05-30
+    summary: |
+      Participated in a team project to develop a prototype information system for small business.
+      Worked with Git, prepared documentation, learned the basics of project management.
+
 skills:
   - name: Technical Skills
     items:
@@ -26,6 +42,7 @@ skills:
         level: 3
       - label: Git
         level: 2
+
 languages:
   - name: Russian
     level: 5
@@ -33,3 +50,31 @@ languages:
   - name: English
     level: 3
     label: Intermediate
+
+awards:
+  - title: Linux Basics Certificate
+    awarder: Stepik
+    date: "2026-03-01"
+    summary: Mastered basic Linux commands, file system operations and bash.
+  - title: Git Basics
+    awarder: GitHub Learning Lab
+    date: "2026-05-15"
+    summary: Learned version control basics, branching, merge and rebase.
+  - title: Python Programming Basics
+    awarder: Coursera
+    date: "2026-01-20"
+    summary: Mastered basic Python syntax, loops, functions and data structures.
+
+links:
+  - icon: brands/github
+    url: https://github.com/slavagoltzoni-boop
+    label: GitHub
+  - icon: hero/book-open
+    url: https://elibrary.ru/
+    label: eLibrary
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/
+    label: Google Scholar
+  - icon: academicons/orcid
+    url: https://orcid.org/
+    label: ORCID
