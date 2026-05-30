@@ -1,0 +1,26 @@
+﻿experience:
+  other: "Опыт"
+education:
+  other: "Образование"
+skills:
+  other: "Навыки"
+awards:
+  other: "Достижения"
+languages:
+  other: "Языки"
+interests:
+  other: "Интересы"
+about:
+  other: "О себе"
+news:
+  other: "Новости"
+publications:
+  other: "Публикации"
+talks:
+  other: "Выступления"
+projects:
+  other: "Проекты"
+courses:
+  other: "Курсы"
+bio:
+  other: "О себе"

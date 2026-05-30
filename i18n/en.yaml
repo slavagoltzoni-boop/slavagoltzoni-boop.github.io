@@ -1,0 +1,26 @@
+﻿experience:
+  other: "Experience"
+education:
+  other: "Education"
+skills:
+  other: "Skills"
+awards:
+  other: "Awards"
+languages:
+  other: "Languages"
+interests:
+  other: "Interests"
+about:
+  other: "About"
+news:
+  other: "News"
+publications:
+  other: "Publications"
+talks:
+  other: "Talks"
+projects:
+  other: "Projects"
+courses:
+  other: "Courses"
+bio:
+  other: "Bio"
